@@ -73,8 +73,8 @@ Designed for developers, hackers, and power users, 4mac instantly transforms any
   <h2>⚠️ macOS Installation Notice (Gatekeeper Bypass)</h2>
 </div>
 
-> **Notice:** Default macOS Gatekeeper settings may display a *"Damaged App"* warning upon first launch of 4mac due to pending Apple Developer Notarization. This is a false positive related to `com.apple.quarantine` tags.
-> **注意（内测版必读）：** 出于 macOS 的安全机制，首次启动时系统可能会报错提示「应用已损坏，应该将它移到废纸篓」。这是未包含公证票据引发的正常隔离拦截，并非文件损坏。
+> **Notice:** macOS Gatekeeper may display a *"Damaged App"* warning upon first launch.
+> **注意：** 首次启动时 macOS 可能会拦截并提示「应用已损坏，应该将它移到废纸篓」。
 
 您可以选择以下任一极客专属方式完美解决：
 

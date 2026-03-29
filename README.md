@@ -66,3 +66,25 @@ Designed for developers, hackers, and power users, 4mac instantly transforms any
 👉 **[点击这里进入 Releases 页面，直接下载最新桌面端 DMG 安装包。](https://github.com/4clawAi/fourmac/releases)** 
 
 一键拖入 Applications 应用程序文件夹，点下启动键，去迎接属于你的算力主权时代。
+
+---
+
+<div align="center">
+  <h2>⚠️ macOS Installation Notice (Gatekeeper Bypass)</h2>
+</div>
+
+> **Notice:** Default macOS Gatekeeper settings may display a *"Damaged App"* warning upon first launch of 4mac due to pending Apple Developer Notarization. This is a false positive related to `com.apple.quarantine` tags.
+> **注意（内测版必读）：** 出于苹果的安全机制与公证状态，该版本首次启动时，系统可能会拦截并提示「应用已损坏，您应该将它移到废纸篓」。请放心，这仅是因为未通过付费公证导致的隔离拦截，绝对不是病毒！请勿删除！
+
+您可以选择以下任一极客专属方式完美解决：
+
+### 方法一（终端终极秒开，强烈推荐）：
+将应用拖入「应用程序」目录后，打开终端（Terminal）执行以下命令清除隔离标签：
+```bash
+sudo xattr -cr /Applications/4mac.app
+```
+*(输入你的 Mac 开机密码后回车即可，没有任何提示就是成功)*
+
+### 方法二（系统原生放行）：
+如果不想使用终端，请保留报错弹窗（不要点移至废纸篓），前往系统顶部菜单栏的苹果图标 -> **系统设置 -> 隐私与安全性**，向下翻动找到安全拦截提示，并点击**「仍要打开 (Open Anyway)」**。
+

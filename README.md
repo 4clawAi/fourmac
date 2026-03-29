@@ -1,4 +1,8 @@
 <div align="center">
+  <img src="assets/logo_small.png" width="180" alt="4mac Mascot Logo" />
+  
+  <br><br>
+
   <h1>🚀 4mac: The Ultimate Local AI Engine for Apple Silicon</h1>
   <p><strong>Bypass the cloud. Stop waiting. Turn your Mac into an unfiltered inference powerhouse.</strong></p>
 
